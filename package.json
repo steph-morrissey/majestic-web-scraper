@@ -1,0 +1,31 @@
+{
+  "name": "majestic-web-scraper",
+  "version": "1.0.0",
+  "description": "A webscraper for majestic.co.uk that uses Node JS to scrape product information for certain categories",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steph-morrissey/majestic-web-scraper.git"
+  },
+  "keywords": [
+    "Node",
+    "JS",
+    "Puppeteer",
+    "Cheerio",
+    "Inquirer"
+  ],
+  "author": "Stephanie Morrissey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steph-morrissey/majestic-web-scraper/issues"
+  },
+  "homepage": "https://github.com/steph-morrissey/majestic-web-scraper#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "inquirer": "^7.3.3"
+  }
+}
