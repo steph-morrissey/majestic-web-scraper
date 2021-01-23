@@ -16,13 +16,13 @@ Mock Majestic.co.uk websites data
 
 Ensure user has control of what products they wish to have within their inventory
 
-- [ ] Use checkbox prompt for each category so user is able to specify what products are required
+- [x] Use checkbox prompt for each category so user is able to specify what products are required
 
 Collect all relevant data for a set of products within a search results list
 
 - [ ] Isolate specific classes to be used by cheerio for product details using Google Dev Tools
 
-- [ ] Get URL links for products displayed within a particular results page
+- [x] Get URL links for products displayed within a particular results page
 
 - [ ] Using URL links from a particular results page, get all product details for each link
 
