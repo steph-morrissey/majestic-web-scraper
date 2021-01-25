@@ -2,6 +2,37 @@ const cheerio = require('cheerio');
 const axios = require('axios');
 const inquirer = require('inquirer');
 
+// Mock data object for each category
+
+const beerSample = {
+  title: 'Peroni Nastro Azzurro 24x330ml Bottles',
+  price: 31.2,
+  type: 'Lager',
+  category: 'Beer',
+  country: 'Italy',
+  abv: 5.1,
+};
+
+const wineSample = {
+  title: 'Catena Malbec 2018, Mendoza',
+  price: 13.99,
+  grape: 'Cabernet Sauvignon',
+  type: 'Red',
+  category: 'Wine',
+  country: 'Argentina',
+  abv: 13.5,
+  vintage: 2018,
+};
+
+const spiritsSample = {
+  title: 'Bombay Sapphire London Gin 70cl',
+  price: 21.99,
+  type: 'White',
+  category: 'Gin',
+  country: 'United Kingdom',
+  abv: 40.0,
+};
+
 // List of checkbox options per category allowing user to select specific product types
 const questionPrompter = [
   {

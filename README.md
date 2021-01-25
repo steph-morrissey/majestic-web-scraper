@@ -12,7 +12,7 @@ A web scraper that uses Node JS packages (Axios, Cheerio, Inquirer) to get produ
 
 Mock Majestic.co.uk websites data
 
-- [ ] Create mock data based off Majestic.co.uk HTML
+- [x] Create mock data based off Majestic.co.uk HTML
 
 Ensure user has control of what products they wish to have within their inventory
 
